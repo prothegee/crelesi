@@ -8,8 +8,12 @@ indent_size = 2
 insert_final_newline = true
 trim_trailing_whitespace = true
 
+[*.js]
+quote_type = double
+ij_typescript_use_double_quotes = false
+
 [*.ts]
-quote_type = single
+quote_type = double
 ij_typescript_use_double_quotes = false
 
 [*.md]
